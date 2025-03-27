@@ -7,7 +7,7 @@
 
 title: myproject
 baseurl: ""
-url: ""
+url: "https://pulakbanerjee.github.io/"
 markdown: kramdown
 theme: jekyll-theme-cayman
 exclude: [vendor]
