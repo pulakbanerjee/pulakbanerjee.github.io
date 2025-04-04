@@ -48,7 +48,7 @@ int64_t  pairwise::findmax()
             if(index1 == 0) 
             { 
                 index2 = 1; 
-           }
+            }
             else 
             {
                 index2=0;
