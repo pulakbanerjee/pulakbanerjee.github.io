@@ -1,0 +1,36 @@
+************************************************
+*** Algorithm for filling the bottle puzzle **** 
+***       Pulak Banerjee, 11.10.2023        ****
+************************************************
+Problem statement:
+
+	Input format:  Contents of bottle Amax and Bmax
+	Output format: Fill out 4 litre of water in one of the bottles.
+
+Constraints:
+	
+	Amax-Bmax = 2
+
+ALGORITHM:
+
+	FILl(Amax, Bmax)
+	A = 0 
+	B = 0
+	
+	if A = 0  && B = 0
+	 A <- A + Amax
+	 B <- Bmax
+	 A <- A - B
+	 B <- A
+	 A <- 0
+	output A and B
+
+	if A = 0 && B != 0
+	 A <- A +  Amax
+	 A <- A - (Bmax - B)
+	 B <- Bmax
+	output A and B
+
+
+
+
