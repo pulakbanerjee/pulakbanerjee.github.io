@@ -11,9 +11,9 @@ std::vector<int> myvect1;
 int start;
 int end;
 
-int item = 9;
+int item = 34848;
 //int item = 110;
-myvect1={1,3,5,7,9,11,13,15,17,21,221,10010,34848,8393838,17163519};
+myvect1={1,3,5,7,9,11,13,15,17,21,100,112,145,156,199,221,10010,34848,8393838,17163519};
 
 // print the vector
 
@@ -26,9 +26,9 @@ int high =  myvect1.size()-1;
 int mid=0;
 int guess=0;
 
-while(low<high)
+while(low<=high)
 {
-  mid = (low+high);
+  mid = (low/2+high/2);
   guess = myvect1[mid];
 
 if(guess == item)
